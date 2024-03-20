@@ -429,7 +429,7 @@ img {
 }
 .project__card a:hover {
   background-color: #7d9a68;
-  transition: 0.5 ease;
+  transition: 0.5s ease;
 }
 /* HIRE ME */
 .hire {
@@ -481,7 +481,7 @@ img {
   padding-bottom: 7rem;
 }
 .hire_info ul li a {
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   display: flex;
   justify-content: center;
   width: 20rem;
@@ -491,7 +491,7 @@ img {
   background: rgb(56, 133, 56);
 }
 .hire_info ul li a:hover {
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   background: var(--dark);
 }
 /* FOOTER */
@@ -512,10 +512,9 @@ img {
 .footer__social {
   color: var(--light);
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
   align-items: center;
   font-size: 2rem;
-  font-weight: 100;
 }
 .footer__wrapper ul li a {
   color: var(--gray);
